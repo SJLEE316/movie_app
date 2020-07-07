@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Food({fav}){
+function Food(props){
   return (
     <h1>
-    I like {fav}
+    I like {props.fav}
   </h1>
   )
   
